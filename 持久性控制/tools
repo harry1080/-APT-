@@ -1,1 +1,52 @@
-
+后门免杀代码混淆
+https://www.shellterproject.com 杀毒软件绕过
+https://github.com/trustedsec/unicorn py，一键生成多种后门
+https://github.com/islamTaha12/Python-Rootkit windows 下 rootkit，反弹 meterpreter
+https://github.com/n00py/Hwacha linux 下快速生成 metepreter 等多种 payload
+https://github.com/Screetsec/Vegile msf 免杀，程序注入
+https://github.com/MohamedNourTN/Terminator py2，msf 免杀
+https://github.com/Veil-Framework/Veil msf 免杀
+https://github.com/abedalqaderswedan1/aswcrypter py、bash，msf 免杀
+https://github.com/Screetsec/TheFatRat java，msf 免杀，利用 searchsploit 快速搜索
+https://github.com/pasahitz/zirikatu msf 免杀
+https://github.com/govolution/avet msf 免杀
+https://github.com/GreatSCT/GreatSCT msf 免杀
+https://github.com/EgeBalci/HERCULES msf 免杀
+https://github.com/trustedsec/nps_payload msf 免杀
+https://github.com/4w4k3/Insanity-Framework py，payload 生成，过杀软，识别虚拟机，钓鱼，内存注入等
+https://github.com/hlldz/SpookFlare Meterpreter，Empire，Koadic 等 loader/dropper 的生成器，可以绕过客户端检测和网络端检测的端点策略
+https://github.com/pasahitz/regsvr32 使用 C#+Empire 实现最小体积免杀后门
+https://github.com/malcomvetter/UnstoppableService 将自身安装为 Windows 服务且管理员无法停止/暂停服务的程序. C#编写
+https://github.com/Cn33liz/StarFighters 基于 DotNetToJScript，利用 JavaScript 和 VBScript 执行 Empire Launcher
+https://github.com/mdsecactivebreach/SharpShooter 基于 DotNetToJScript 使用 js、vbs，用于检索和执行任意 CSharp 源码的 payload 创建框架
+https://github.com/mdsecactivebreach/CACTUSTORCH 基于 DotNetToJScript 使用 js、vbs 生成恶意 payload
+https://github.com/OmerYa/Invisi-Shell 对 powershell 文件进行混淆
+https://github.com/danielbohannon/Invoke-DOSfuscation 对 powershell 文件进行混淆，加密操作以及重新编码
+https://github.com/danielbohannon/Invoke-Obfuscation 对 powershell 文件进行混淆，加密操作以及重新编码
+https://github.com/Mr-Un1k0d3r/SCT-obfuscator Cobalt Strike SCT 有效载荷混淆器
+https://github.com/tokyoneon/Armor bash，生成加密 Payload 在 macOS 上反弹 Shell
+https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator 宏混淆，其中还包括 AV/Sandboxes 逃避机制
+https://github.com/Kkevsterrr/backdoorme py3、py2 多种类型的后门、shell 生成工具，可以自动维持权限
+https://github.com/TestingPens/MalwarePersistenceScripts win 下权限维持脚本
+https://github.com/mhaskar/Linux-Root-Kit py，simple，linux 下 rootkit
+https://github.com/PinkP4nther/Sutekh simple，rootkit，使普通用户获取 root shell
+https://github.com/threatexpress/metatwin 从一个文件中提取元数据，包括数字签名，并注入到另一个文件中
+https://github.com/Mr-Un1k0d3r/Windows-SignedBinary 可以修改二进制文件的 HASH，同时保留微软 windows 的签名
+https://github.com/secretsquirrel/SigThief py，用于劫持合法的数字签名并绕过 Windows 的哈希验证机制的脚本工具
+https://github.com/9aylas/Shortcut-Payload-Generator 快捷方式(.lnk)文件 Payload 生成器.AutoIt 编写
+https://github.com/GuestGuri/Rootkit 反弹一个 tcp 连接，将进程 id 绑定到一个空文件夹
+https://github.com/secretsquirrel/the-backdoor-factory 可以生成 win32PE 后门测试程序,ELF 文件后门程序等
+文件捆绑
+bat2exe.net 相类似也可以利用 iexpress 与 winrar 生成自解压 exe 可执行文件
+https://github.com/islamadel/bat2exe 将 bat 文件转换为 exe 二进制文件
+https://github.com/tywali/Bat2ExeConverter 将 bat 文件转换为 exe 二进制文件
+https://github.com/Juntalis/win32-bat2exe 将 bat 文件转换为 exe 二进制文件
+http://www.f2ko.de/downloads/Bat_To_Exe_Converter.zip 将 bat 文件转换为 exe 二进制文件，可以隐藏窗口。
+https://github.com/r00t-3xp10it/trojanizer 将两个可执行文件打包为自解压文件，自解压文件在执行时会执行可执行文件
+https://github.com/r00t-3xp10it/backdoorppt 将 payload 更换图标
+https://github.com/r00t-3xp10it/FakeImageExploiter 将 payload 更换图标。需要 wine 与 resourcehacker 环境
+https://github.com/DamonMohammadbagher/FakeFileMaker 更换图标和名称
+https://github.com/peewpw/Invoke-PSImage 将 PS 脚本隐藏进 PNG 像素中并用一行指令去执行它
+https://github.com/Mr-Un1k0d3r/DKMC Don’t kill my cat 生成混淆的 shellcode，将 shellcode 存储在多语言图像中
+https://github.com/deepzec/Bad-Pdf 生成一个 pdf 文件，内含 payload 来窃取 win 上的 Net-NTLM 哈希
+https://github.com/3gstudent/Worse-PDF 向 PDF 文件中插入恶意代码，来窃取 win 上的 Net-NTLM 哈希
