@@ -1,1 +1,5 @@
-
+https://github.com/TryCatchHCF/Cloakify 躲避 DLP/MLS 数据泄露防护系统，突破数据白名单控制，躲避 AV 检测进行数据盗取
+https://github.com/sensepost/DET 使用单个或多个通道同时执行数据取回
+https://github.com/Arno0x/DNSExfiltrator 利用 DNS 解析进行数据隐秘传输的工具
+https://github.com/ytisf/PyExfil 用于数据取回的 Python 软件包
+https://github.com/Arno0x/ReflectiveDnsExfiltrator 反射 DNS 解析隐蔽通道进行数据泄露
