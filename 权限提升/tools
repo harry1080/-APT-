@@ -1,1 +1,50 @@
+Linux 提权相关
+https://github.com/AlessandroZ/BeRoot py,通过检查常见的错误配置来查找提权方法. 支持 Windows/Linux/Mac
+https://github.com/mschwager/0wned 利用 python 包进行高权限用户创建
+https://github.com/mzet-/linux-exploit-suggester 查找 linux 有哪些补丁没有打的脚本
+https://github.com/belane/linux-soft-exploit-suggester 查找 linux 有哪些有漏洞的软件
+https://github.com/dirtycow/dirtycow.github.io 脏牛提权漏洞 exp
+https://github.com/FireFart/dirtycow 脏牛提权漏洞 exp
+https://github.com/stanleyb0y/sushell 利用 su 小偷实现低权限用户窃取 root 用户口令
+https://github.com/jas502n/CVE-2018-17182/ Linux 内核 VMA-UAF 提权漏洞 CVE-2018-17182
+https://github.com/jas502n/CVE-2018-14665 CVE-2018-14665，linux 下 Xorg X 服务器提权利用
+https://github.com/nmulasmajic/syscall_exploit_CVE-2018-8897 Linux 系统利用 Syscall 实现提权
+https://github.com/can1357/CVE-2018-8897 Linux 系统利用 Syscall 实现提权
+https://github.com/SecWiki/linux-kernel-exploits linux-kernel-exploits Linux 平台提权漏洞集合
+https://github.com/nilotpalbiswas/Auto-Root-Exploit linux 自动提权脚本
+https://github.com/WazeHell/PE-Linux Linux 提权工具
+https://guif.re/linuxeop linux 提权命令集合
 
+Windows 提权相关
+http://www.fuzzysecurity.com/tutorials/16.html windows 平台教程级提权参考文章
+https://github.com/SecWiki/windows-kernel-exploits Windows 平台提权漏洞 Exp 集合
+https://github.com/51x/WHP windows 下各种提权与利用工具
+https://github.com/rasta-mouse/Sherlock win 提权漏洞验证
+https://github.com/WindowsExploits/Exploits 微软 CVE-2012-0217、CVE-2016-3309、CVE-2016-3371、CVE-2016-7255、CVE-2017-0213 提权利用
+https://github.com/decoder-it/lonelypotato RottenPotatoNG 变种，利用 NBNS 本地域名欺骗和 WPAD 代理欺骗提权
+https://github.com/ohpe/juicy-potato RottenPotatoNG 变种，利用 com 对象、用户 token 进行提权
+https://github.com/foxglovesec/Potato RottenPotatoNG 变种，利用本地域名欺骗和代理欺骗提权
+https://github.com/DanMcInerney/icebreaker 处于内网环境但又在 AD 环境之外，icebreaker 将会帮助你获取明文 Active Directory 凭据（活动目录存储在域控服务器可用于提权）
+https://github.com/hausec/ADAPE-Script Active Directory 权限提升脚本
+https://github.com/klionsec/BypassAV-AllThings 利用 aspx 一句话配合提权 payload 提权
+https://github.com/St0rn/Windows-10-Exploit msf 插件，win10 uac bypass
+https://github.com/sam-b/CVE-2014-4113 利用 Win32k.sys 内核漏洞进行提取，ms14-058
+https://github.com/breenmachine/RottenPotatoNG 利用 NBNS 本地域名欺骗和 WPAD 代理欺骗提权
+https://github.com/unamer/CVE-2018-8120 影响 Win32k 组件，针对 win7 和 win2008 提权
+https://github.com/alpha1ab/CVE-2018-8120 在 win7 与 win2k8 的基础上增加了 winXP 与 win2k3
+https://github.com/0xbadjuju/Tokenvator 使用 Windows 令牌提升权限的工具，提供一个交互命令行界面
+
+权限绕过
+https://payloads.online/archivers/2018-12-22/1 DLL Hijacking & COM Hijacking ByPass UAC - 议题解读
+https://github.com/tyranid/DotNetToJScript 能够利用 JS/Vbs 脚本加载.Net 程序的工具
+https://github.com/mdsecactivebreach/SharpPack 绕过系统应用白名单执行 DotNet and PowerShell tools
+https://github.com/rootm0s/WinPwnage py2，win 下权限提升，uac 绕过，dll 注入等
+https://github.com/hfiref0x/UACME 包含许多用于多个版本操作系统上绕过 Windows 用户帐户控制的方法
+https://github.com/Ben0xA/nps 实现了不使用 powershell.exe 的情况下执行 powershell 命令
+https://github.com/Mr-Un1k0d3r/PowerLessShell 实现了不调用 powershell.exe 的情况下执行 powershell 命令
+https://github.com/p3nt4/PowerShdll 使用 rundll32 运行 PowerShell，绕过软件限制
+https://github.com/ionescu007/r0ak 内核层的瑞士军刀. 在 Windows10 内核中读/写/执行代码
+https://github.com/leechristensen/UnmanagedPowerShell 从一个非托管程序来执行 PowerShell,经过一些修改后可以被用来注入到其他进程
+https://github.com/stephenfewer/ReflectiveDLLInjection 一种库注入技术，让 DLL 自身不使用 LoadLibraryA 函数,将自身映射到目标进程内存中
+https://github.com/ChrisAD/ads-payload 利用环境变量与 destop.ini 绕过 windows 下的 Palo Alto Traps endpoint 防护软件
+https://github.com/Zer0Mem0ry/RunPE 通过内存读取，网络传输内容，利用 PE 执行 shellcode
