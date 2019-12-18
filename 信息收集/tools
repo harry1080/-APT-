@@ -1,3 +1,39 @@
+https://github.com/Kickball/awesome-selfhosted awesome 系列之自服务应用
+https://github.com/littlecodersh/itchat 微信个人号接口、微信机器人及命令行微信
+https://github.com/sym233/core-values-encoder js,社会主义核心价值观加密，https://sym233.github.io/core-values-encoder/
+https://github.com/valentinxxx/nginxconfig.io/ 在线 nginx 配置文件生成，demo 网址 https://nginxconfig.io
+https://github.com/asciimoo/searx 搭建一个自己的搜索引擎,DEMO 网址 https://searx.me/
+http://sc.ftqq.com/3.version server 酱微信通知
+https://osint.link Open Source Intelligence (OSINT) Tools & Resources
+https://www.wolframalpha.com 根据问题直接给出答案的网站
+shodan.io 互联网感知引擎
+fofa.so 白帽汇 NOSEC
+https://www.oshadan.com 傻蛋联网设备搜索 _ 湖南安数网络
+zoomeye.org 知道创宇互联网感知引擎
+https://sms.cngrok.com/receiving-sms 收码接码
+https://www.pdflibr.com/ 收码接码
+https://www.fakenamegenerator.com 多国身份信息模拟器
+https://recruitin.net Easily use Google to search profiles on LinkedIn
+https://www.truthfinder.com 美国公民信息查询
+https://verify-email.org 邮件真实性验证
+https://safeweb.norton.com 诺顿网站安全检测
+http://www.vuln.cn/tools/ftp 在线 FTP 登录
+http://www.link114.cn/title/ 批量查询网站标题
+https://www.whatweb.net/ 在线 web 指纹识别
+https://hackertarget.com/ip-tools/ 提供 api，ip 相关工具、在线扫描器
+http://www.webscan.cc/ 同 IP 网站查询,C 段查询,IP 反查域名,C 段旁注,旁注工具
+https://www.phpinfo.me/bing.php 在线旁站查询|C 段查询|必应接口 C 段查询
+https://www.phpinfo.me/domain/ 在线子域名爆破
+https://www.dnsdb.io DNS 查询,子域名查询,IP 查询,A 记录查询,域名解析,旁站查询
+https://dnsdumpster.com/ dns recon and research, find and lookup dns records
+http://ip.chaxun.la/ ip 反查域名---查询啦
+https://habo.qq.com 在线恶意文件检测
+https://www.virustotal.com 恶意软件检测
+http://r.virscan.org/ 恶意软件检测
+https://www.appscan.io 移动软件在线检测
+https://www.nomoreransom.org 常见勒索软件分析还原
+https://www.cmd5.com/ HASH 密码在线破解
+https://www.onlinehashcrack.com 密码哈希在线破解，邮件通知
 https://github.com/smicallef/spiderfoot 利用 OSINT 自动化找出对方信息，gui 界面，插件化
 https://github.com/Nhoya/gOSINT go，利用 OSINT 自动化搜集信息
 https://github.com/laramies/theHarvester 企业被搜索引擎收录敏感资产信息监控脚本：员工邮箱、子域名、Hosts
