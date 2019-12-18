@@ -23,3 +23,16 @@ https://github.com/sowish/LNScan 详细的内部网络信息扫描器
 https://github.com/rootlabs/nWatch 联动 nmap，并对组织内网进行扫描
 https://github.com/m8r0wn/nullinux 用于 Linux 的内部渗透测试工具，可用于通过 SMB 枚举操作系统信息，域信息，共享，目录和用户。
 https://github.com/zMarch/Orc bash，Linux 下后渗透命令集合
+http://www.oxid.it/cain.html Cain & Abel 支持密码还原、arp 中间人攻击
+https://github.com/gentilkiwi/mimikatz Windows 下以抓取密码为主的横向移动神器
+https://github.com/skelsec/pypykatz 使用纯 py3 实现的 mimikatz
+https://github.com/eladshamir/Internal-Monologue 无需 LSASS 进程使用 Mimikatz 从 LSASS 进程内存中提取内容, 从内存中提取明文密码, NTLM 哈希, Kerberos ticket, 以及执行 pass-the-hash/pass-the-ticket 攻击等
+https://github.com/AlessandroZ/LaZagne py3，密码抓取工具
+https://github.com/AlessandroZ/LaZagneForensic LaZagne 密码破解升级版，利用 DPAPI，目前缺陷是需要 windows user 密码
+https://github.com/twelvesec/passcat Windows 下密码抓取工具
+https://github.com/huntergregal/mimipenguin linux 密码抓取神器
+https://github.com/quarkslab/quarkspwdump quarkslab 出品的密码抓取工具，不用注入任何进程
+https://github.com/mthbernardes/sshLooter 从 ssh 服务中窃取用户名密码
+https://github.com/nettitude/Invoke-PowerThIEf 利用 IE 进行后渗透，抓取密码、重定向等
+https://github.com/GhostPack/Rubeus 操作 Kerberos 的库, 实现了 Kekeo 的大部分功能, C#编写
+https://github.com/m8r0wn/ldap_search PY,通过 ldap（轻量目录访问协议）认证，列举 win 域信息，爆破登录
