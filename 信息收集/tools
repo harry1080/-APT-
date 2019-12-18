@@ -1,1 +1,48 @@
-
+https://github.com/smicallef/spiderfoot 利用 OSINT 自动化找出对方信息，gui 界面，插件化
+https://github.com/Nhoya/gOSINT go，利用 OSINT 自动化搜集信息
+https://github.com/laramies/theHarvester 企业被搜索引擎收录敏感资产信息监控脚本：员工邮箱、子域名、Hosts
+https://github.com/guelfoweb/knock 通过爆破进行子域名获取，可用于查找子域名接管漏洞
+https://github.com/aboul3la/Sublist3r 通过搜索引擎与爆破快速子域枚举工具
+https://github.com/Ice3man543/subfinder 基于 go 实现的 Sublist3r
+https://github.com/yanxiu0614/subdomain3 py3、py2 的子域名,IP,CDN 信息等
+https://github.com/caffix/amass 基于 go，子域名枚举, 搜索互联网数据源, 使用机器学习猜测子域名
+https://github.com/nahamsec/lazyrecon 侦查 reconnaissance 过程自动化脚本, 可自动使用 Sublist3r/certspotter 获取子域名, 调用 nmap/dirsearch 等
+https://github.com/s0md3v/ReconDog simple，侦查信息的瑞士军刀
+https://github.com/FeeiCN/ESD py3，爆破搜集子域名
+https://github.com/alpha1e0/pentestdb 多用途集成化信息搜集工具
+https://github.com/se55i0n/PortScanner py2,目标 tcp 端口快速扫描、banner 识别、cdn 检测
+https://github.com/lijiejie/subDomainsBrute lijiejie 开发的一款使用广泛的子域名爆破枚举工具
+https://github.com/ring04h/wydomain 猪猪侠开发的一款域名收集全面、精准的子域名枚举工具
+https://github.com/n4xh4ck5/N4xD0rk 利用搜索引擎来搜集子域名，可以使用西班牙语搜集
+https://github.com/vysec/DomLink py2,调用 WHOXY.com，对邮箱和域名进行进一步的搜集
+https://github.com/jonluca/Anubis py3.6，子域名爆破与信息搜集
+https://github.com/le4f/dnsmaper web 界面，子域名枚举爆破工具以及地图位置标记
+https://github.com/thewhiteh4t/seeker 获取高精度地理信息和设备信息的工具
+https://github.com/0xbug/orangescan web 界面，的在线子域名信息收集工具
+https://github.com/TheRook/subbrute 扫描器中常用的子域名爆破 API 库
+https://github.com/We5ter/GSDF 基于谷歌 SSL 透明证书的子域名查询脚本
+https://github.com/mandatoryprogrammer/cloudflare_enum 利用 CloudFlare 的 dns 进行子域名枚举
+https://github.com/ultrasecurity/webkiller 渗透辅助，py，ip 信息、端口服务指纹、蜜罐探测、bypass cloudflare
+https://github.com/christophetd/CloudFlair cloudflare 绕过，获取真实 ip，集成 censys
+https://github.com/exp-db/PythonPool/tree/master/Tools/DomainSeeker 多方式收集目标子域名信息
+https://github.com/code-scan/BroDomain 子域名查询
+https://github.com/michenriksen/aquatone 子域名枚举、探测工具。可用于子域名接管漏洞探测
+https://github.com/chuhades/dnsbrute 基于 go，高效的子域名爆破工具
+https://github.com/evilsocket/dnssearch 基于 go，一款子域名爆破工具
+https://github.com/OJ/gobuster 基于 go，根据 dns 查询子域名和 web 目录爆破的工具
+https://github.com/reconned/domained 可用于子域名收集的一款工具
+https://github.com/bit4woo/Teemo 多方式域名收集及枚举工具
+https://github.com/swisskyrepo/Subdomino 子域名枚举，端口扫描，服务存活确认
+https://github.com/nmalcolm/Inventus 通过爬虫实现的子域名收集工具
+https://github.com/alienwithin/OWASP-mth3l3m3nt-framework 渗透辅助，php，exp 搜寻、payload 与 shell 生产、信息搜集
+https://github.com/chrismaddalena/ODIN py3，simple，信息搜集与后期漏洞利用
+https://github.com/x0day/bannerscan C 段/旁站查询与路径扫描
+https://github.com/Xyntax/BingC 基于 Bing 搜索引擎的 C 段/旁站查询，多线程，支持 API
+https://github.com/zer0h/httpscan 网段 Web 主机发现小工具
+https://github.com/lijiejie/BBScan 网站信息泄漏批量扫描脚本
+https://github.com/aipengjie/sensitivefilescan 网站敏感文件扫描工具
+https://github.com/Mosuan/FileScan 网站敏感文件扫描 / 二次判断降低误报率 / 扫描内容规则化 / 多目录扫描
+https://github.com/Xyntax/FileSensor 网站敏感文件探测工具
+https://github.com/ring04h/weakfilescan 多线程网站泄露信息检测工具
+https://github.com/Viralmaniar/Passhunt simple，用于搜索网络设备 Web 应用程序等的默认凭证。包含 523 个厂家的 2084 组默认密码
+https://github.com/yassineaboukir/Asnlookup simple,利用 ASN 搜索特定组织拥有 ip，可联动 nmap、masscan 进行进一步信息扫描
