@@ -1,1 +1,25 @@
-
+https://github.com/OpenWireSec/metasploit 后渗透框架
+https://github.com/EmpireProject/Empire 基于 poweshell 的命令执行框架
+https://github.com/TheSecondSun/Bashark 纯 Bash 脚本编写的后渗透框架，大鲨鱼
+https://github.com/JusticeRage/FFM py3，拥有下载、上传功能，生成可执行 py 脚本的后门的后渗透框架
+https://github.com/DarkSpiritz/DarkSpiritz py2,后渗透框架
+https://github.com/byt3bl33d3r/CrackMapExec 网络测试中的瑞士军刀，包含 impacket、PowerSploit 等多种模块
+https://github.com/SpiderLabs/scavenger 对 CrackMapExec 进行二次包装开发进行内网敏感信息扫描
+https://github.com/jmortega/python-pentesting python-pentesting-tool python 安全工具相关功能模块
+https://github.com/0xdea/tactical-exploitation Python/PowerShell 的测试脚本集
+https://github.com/PowerShellMafia/PowerSploit powershell 测试脚本集与开发框架汇总
+https://github.com/samratashok/nishang powershell 脚本集与利用框架
+https://github.com/PowerShellEmpire/PowerTools PowerShell 脚本集，停止更新
+https://github.com/FuzzySecurity/PowerShell-Suite PowerShell 脚本集
+https://github.com/rvrsh3ll/Misc-Powershell-Scripts PowerShell 脚本集
+https://github.com/nccgroup/redsnarf 窃取哈希，密码解密，偷偷调用猕猴桃等程序，rdp 多方法利用，远程启动 shell，清楚痕迹
+https://github.com/BloodHoundAD/BloodHound 用于分析域成员和用用户关系的程序，通过用 powershell 脚本导出域内的 session、computer、group、user 等信息，入库后进行可视化分析可以做到定点攻击。
+https://github.com/xorrior/RemoteRecon 利用 DotNetToJScript 进行截图、key 记录、token 窃取、dll 与恶意代码注入
+https://github.com/SkyLined/LocalNetworkScanner 利用浏览器漏洞当对方打开网址时，扫描对方内网信息
+https://github.com/fdiskyou/hunter 调用 Windows API 对内网信息进行搜集很全面
+https://github.com/0xwindows/VulScritp 内网渗透脚本，包括 banner 扫描、端口扫描；phpmyadmin、jenkins 等通用漏洞利用等
+https://github.com/lcatro/network_backdoor_scanner 基于网络流量的内网探测框架
+https://github.com/sowish/LNScan 详细的内部网络信息扫描器
+https://github.com/rootlabs/nWatch 联动 nmap，并对组织内网进行扫描
+https://github.com/m8r0wn/nullinux 用于 Linux 的内部渗透测试工具，可用于通过 SMB 枚举操作系统信息，域信息，共享，目录和用户。
+https://github.com/zMarch/Orc bash，Linux 下后渗透命令集合
