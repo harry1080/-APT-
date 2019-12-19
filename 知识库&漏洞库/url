@@ -1,0 +1,232 @@
+https://github.com/maskhed/Papers 包含 100 课等经典攻防教材、安全知识
+https://github.com/infosecn1nja/AD-Attack-Defense 红蓝方攻防手册
+https://github.com/yeyintminthuhtut/Awesome-Red-Teaming 优秀红队资源列表
+https://github.com/foobarto/redteam-notebook 红队标准渗透测试流程+常用命令
+https://github.com/tom0li/collection-document 文章收集：安全部、SDL、src、渗透测试、漏洞利用
+https://github.com/kbandla/APTnotes 各种公开的文件和相关的 APT 笔记，还有软件样本
+https://wizardforcel.gitbooks.io/web-hacking-101/content Web Hacking 101 中文版
+https://techvomit.net/web-application-penetration-testing-notes/ web 渗透测试笔记
+https://github.com/qazbnm456/awesome-web-security Web 安全资料和资源列表
+http://pentestmonkey.net/category/cheat-sheet 渗透测试常见条目
+https://github.com/demonsec666/Security-Toolkit 渗透攻击链中常用工具及使用场景
+https://github.com/Kinimiwar/Penetration-Testing 渗透测试方向优秀资源收集
+https://github.com/jshaw87/Cheatsheets 渗透测试/安全秘籍/笔记
+内网安全文档
+https://attack.mitre.org/wiki/Lateral_Movement mitre 机构对横向移动的总结
+https://payloads.online/archivers/2018-11-30/1 彻底理解 Windows 认证 - 议题解读
+https://github.com/klionsec/klionsec.github.io 内网大牛的学习历程
+https://github.com/l3m0n/pentest_study 从零开始内网渗透学习
+https://github.com/Ridter/Intranet_Penetration_Tips 内网渗透 TIPS
+学习手册相关资源
+https://github.com/HarmJ0y/CheatSheets 多个项目的速查手册（Beacon / Cobalt Strike，PowerView，PowerUp，Empire 和 PowerSploit）
+https://wizardforcel.gitbooks.io/kali-linux-web-pentest-cookbook/content/ Kali Linux Web 渗透测试秘籍 中文版
+https://github.com/louchaooo/kali-tools-zh kali 下工具使用介绍手册
+https://www.offensive-security.com/metasploit-unleashed/ kali 出的 metasploit 指导笔记
+http://www.hackingarticles.in/comprehensive-guide-on-hydra-a-brute-forcing-tool/ hydra 使用手册
+https://www.gitbook.com/book/t0data/burpsuite/details burpsuite 实战指南
+https://zhuanlan.zhihu.com/p/26618074 Nmap 扩展脚本使用方法
+https://somdev.me/21-things-xss/ XSS 的 21 个扩展用途
+https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/ sql 注入 sheet 表
+https://sqlwiki.netspi.com/ 你要的 sql 注入知识点都能找到
+https://github.com/kevins1022/SQLInjectionWiki 一个专注于聚合和记录各种 SQL 注入方法的 wiki
+https://github.com/hardenedlinux/linux-exploit-development-tutorial Linux exploit 开发入门
+https://wizardforcel.gitbooks.io/asani/content 浅入浅出 Android 安全 中文版
+https://wizardforcel.gitbooks.io/lpad/content Android 渗透测试学习手册 中文版
+https://github.com/writeups/ios ios 漏洞 writeup 笔记
+http://blog.safebuff.com/2016/07/03/SSRF-Tips/ ssrf 漏洞利用手册
+checklist 和基础安全知识
+https://book.yunzhan365.com/umta/rtnp/mobile/index.html 网络安全科普小册子
+http://sec.cuc.edu.cn/huangwei/textbook/ns/ 网络安全电子版教材。中传信安课程网站
+https://mitre.github.io/attack-navigator/enterprise/ mitre 机构 att&ck 入侵检测条目
+https://github.com/danielmiessler/SecLists 表类型包括用户名，密码，URL，敏感数据模式，模糊测试负载，Web shell 等
+https://github.com/GitGuardian/APISecurityBestPractices api 接口测试 checklist
+https://github.com/ym2011/SecurityManagement 分享在建设安全管理体系、ISO27001、等级保护、安全评审过程中的点点滴滴
+https://mp.weixin.qq.com/s/O36e0gl4cs0ErQPsb5L68Q 区块链，以太坊智能合约审计 CheckList
+https://github.com/slowmist/eos-bp-nodes-security-checklist 区块链，EOS bp nodes security checklist（EOS 超级节点安全执行指南）
+https://xz.aliyun.com/t/2089 金融科技 SDL 安全设计 checklist
+https://github.com/juliocesarfort/public-pentesting-reports 由几家咨询公司和学术安全组织发布的公共渗透测试报告的列表。
+http://www.freebuf.com/articles/network/169632.html 开源软件创建 SOC 的一份清单
+https://github.com/0xRadi/OWASP-Web-Checklist owasp 网站检查条目
+https://www.securitypaper.org/ SDL 开发安全生命周期管理
+https://github.com/Jsitech/JShielder linux 下服务器一键加固脚本
+https://github.com/wstart/DB_BaseLine 数据库基线检查工具
+产品设计文档
+https://www.freebuf.com/sectool/135032.html 构建一个高交互型的难以发现的蜜罐
+https://bloodzer0.github.io/ossa/ 利用开源文件进行开源安全架构.主机、扫描器、端口、日志、防护设备等
+https://github.com/dvf/blockchain 用 Python 从零开始创建区块链
+https://github.com/crazywa1ker/DarthSidious-Chinese 从 0 开始你的域渗透之旅，DarthSidious 中文版
+https://paper.seebug.org/772/ 如何使用 KittyFuzzer 结合 ISF 中的工控协议组件对工控协议进行 Fuzz
+学习靶场
+https://www.blackmoreops.com/2018/11/06/124-legal-hacking-websites-to-practice-and-learn/ 124 个合法的可以练习 Hacking 技术的网站
+https://www.zhihu.com/question/267204109 学 web 安全去哪里找各种各样的靶场？
+https://www.vulnhub.com 许多 ctf 靶机汇总
+https://www.wechall.net 世界知名 ctf 汇总交流网站
+https://www.xssgame.com 谷歌 XSS 挑战
+http://xss.tv 在线靶场挑战
+https://www.hackthebox.eu 在线靶场挑战
+https://www.root-me.org 在线靶场挑战
+http://www.itsecgames.com bWAPP，包含 100 多种漏洞环境
+https://github.com/c0ny1/vulstudy 多种漏洞复现系统的 docker 汇总
+https://github.com/bkimminich/juice-shop 常见 web 安全实验靶场市场
+https://github.com/ethicalhack3r/DVWA web 安全实验靶场
+https://www.freebuf.com/articles/web/123779.html 新手指南：DVWA-1.9 全级别教程
+https://github.com/78778443/permeate php，常见漏洞靶场
+https://github.com/gh0stkey/DoraBox php,常见漏洞靶场
+https://github.com/stamparm/DSVW py2,常见漏洞靶场
+https://github.com/amolnaik4/bodhi py,常见漏洞靶场
+https://github.com/Safflower/Solve-Me php，韩国一个偏代码审计的 ctf 靶场源码
+https://github.com/WebGoat/WebGoat 一键 jar 包，web 安全实验靶场
+https://github.com/Audi-1/sqli-labs 基于 SQLite 的 sql 注入学习靶场
+https://github.com/lcamry/sqli-labs 通过 sqli-labs 演示 mysql 相关的注入手法
+https://github.com/c0ny1/upload-labs 一个帮你总结所有类型的上传漏洞的靶场
+https://github.com/LandGrey/upload-labs-writeup upload-labs 指导手册
+https://github.com/Go0s/LFIboomCTF 本地文件包含漏洞&&PHP 利用协议&&实践源码
+https://in.security/lin-security-practise-your-linux-privilege-escalation-foo/ 一个虚拟机文件用于 linux 提权练习
+https://github.com/OWASP/igoat 适用于 ios 应用程序测试和安全性的学习工具
+https://github.com/prateek147/DVIA-v2 适用于 ios 应用程序测试和安全性的学习工具
+https://github.com/rapid7/metasploitable3 metasploit 练习系统
+https://github.com/rapid7/metasploit-vulnerability-emulator 基于 perl 的 metasploit 模拟环境，练习操作
+https://github.com/chryzsh/DarthSidious AD 域环境的搭建、渗透、防护
+https://github.com/c0ny1/xxe-lab 一个包含 php,java,python,C#等各种语言版本的 XXE 漏洞 Demo
+漏洞复现
+https://github.com/vulhub/vulhub Vulhub 是一个面向大众的开源漏洞靶场，无需 docker 知识，执行两条命令即可编译、运行一个完整的漏洞靶场镜像
+https://github.com/Medicean/VulApps 收集各种漏洞环境，为方便使用，统一采用 Dockerfile 形式。同时也收集了安全工具环境。
+https://github.com/bingohuang/docker-labs 制作在线 docker 平台
+开源漏洞库
+https://wooyun.kieran.top/#!/ 2016 年之前，乌云 Drops 文章，公开漏洞详情文章
+https://wooyun.js.org/ 2016 年之前，乌云 Drops 文章，公开漏洞详情文章
+https://dvpnet.io/list/index/state/3 公开漏洞详情文章
+https://sec.ly.com/bugs 同程安全公开漏洞详情文章
+http://ics.cnvd.org.cn 中国国家工控漏洞库
+https://ics-cert.us-cert.gov/advisories 美国国家工控漏洞库
+http://www.nsfocus.net/index.php?act=sec_bug 绿盟漏洞库，含工控
+http://ivd.winicssec.com/ 威努特工控漏洞库
+http://cve.scap.org.cn/view/ics CVE 中文工控漏洞库
+https://cve.mitre.org/cve/search_cve_list.html 美国 MITRE 公司负责维护的 CVE 漏洞库
+https://www.exploit-db.com 美国 Offensive Security 的漏洞库
+https://nvd.nist.gov/vuln/search 美国国家信息安全漏洞库
+工具包集合
+http://www.4hou.com/web/11241.html 史上最全攻击模拟工具盘点
+https://github.com/infosecn1nja/Red-Teaming-Toolkit 信息收集、攻击尝试获得权限、持久性控制、权限提升、网络信息收集、横向移动、数据分析（在这个基础上再做持久化控制）、清理痕迹
+https://github.com/toolswatch/blackhat-arsenal-tools 黑帽大会工具集
+https://www.cnblogs.com/k8gege K8 哥哥工具包集合。解压密码 Kk8team,Kk8gege
+https://github.com/n00py/ReadingList/blob/master/gunsafe.txt 安全工具集
+https://github.com/Ridter/Pentest 安全工具集
+https://github.com/redcanaryco/atomic-red-team win、linux、mac 等多方面 apt 利用手段、技术与工具集
+https://github.com/Cooolis/Cooolis.github.io Cooolis 是一个操作系统命令技巧备忘录，https://cooolis.payloads.online
+https://github.com/LOLBAS-Project/LOLBAS 常见的渗透测试利用的脚本与二进制文件集合
+https://www.owasp.org/index.php/File:CSRFTester-1.0.zip csrf 验证工具
+https://github.com/ufrisk/MemProcFS 以访问文件系统的方式访问物理内存, 可读写, 有易于使用的接口. 当前支持 Windows
+https://github.com/vletoux/SpoolerScanner 检测 Windows 远程打印机服务是否开启的工具
+https://github.com/sirpsycho/firecall 直接向 CiscoASA 防火墙发送命令, 无需登录防火墙后再做修改
+https://github.com/jboss-javassist/javassist 能够操作字节码框架，通过它我们能很轻易的修改 class 代码文件
+https://github.com/ConsenSys/mythril-classic 用于以太坊智能协议的安全分析工具
+https://github.com/a13xp0p0v/kconfig-hardened-check 用于检查 Linux 内核配置中的安全加固选项的脚本
+https://github.com/lionsoul2014/ip2region ip 地址定位库，支持 python3 等多接口。类比 geoip
+https://github.com/m101/hsploit 基于 rust 的 HEVD 漏洞利用程序
+https://github.com/ticarpi/jwt_tool 针对 json web token 的检测
+https://github.com/clr2of8/DPAT 域密码配置审计
+https://github.com/chenjj/CORScanner 域解析漏洞，跨域扫描器
+https://github.com/dienuet/crossdomain 域解析漏洞，跨域扫描器
+https://github.com/sfan5/fi6s ipv6 端口快速扫描器
+https://github.com/lavalamp-/ipv666 go,ipv6 地址枚举扫描
+https://github.com/commixproject/commix 命令注入漏洞扫描
+https://github.com/Graph-X/davscan DAVScan 是一款快速轻便的 webdav 扫描仪，旨在发现 DAV 启用的 Web 服务器上的隐藏文件和文件夹
+https://github.com/jcesarstef/dotdotslash 目录遍历漏洞测试
+https://github.com/P3GLEG/WhaleTail 根据 docker 镜像生成成 dockerfile
+https://github.com/cr0hn/dockerscan docker 扫描工具
+https://github.com/utiso/dorkbot 通过定制化的谷歌搜索引擎进行漏洞页面搜寻及扫描
+https://github.com/NullArray/DorkNet 基于搜索引擎的漏洞网页搜寻
+https://github.com/panda-re/lava 大规模向程序中植入恶意程序
+https://github.com/woj-ciech/Danger-zone 关联域名、IP 和电子邮件地址之间的数据并将其可视化输出
+https://github.com/securemode/DefenderKeys 枚举出被 Windows Defender 排除扫描的配置
+https://github.com/D4Vinci/PasteJacker 剪贴板劫持利用工具
+https://github.com/JusticeRage/freedomfighting 日志清理、文件共享、反向 shell、简单爬虫工具包
+https://github.com/gh0stkey/PoCBox 漏洞测试验证辅助平台，SONP 劫持、CORS、Flash 跨域资源读取、Google Hack 语法生成、URL 测试字典生成、JavaScript URL 跳转、302 URL 跳转
+https://github.com/jakubroztocil/httpie http 调试工具，类似 curl，功能更完善
+https://www.getpostman.com/ http 调试工具，带界面
+漏洞收集与 exp、poc 利用
+https://github.com/Lcys/Python_PoC python3 的 poc、exp 快速编写模板，有众多模范版本
+https://github.com/raminfp/linux_exploit_development linux 漏洞利用开发手册
+https://github.com/mudongliang/LinuxFlaw 包含 linux 下软件漏洞列表
+https://github.com/coffeehb/Some-PoC-oR-ExP 各种漏洞 poc、Exp 的收集或编写
+https://github.com/userlandkernel/plataoplomo Sem Voigtländer 公开其发现的 iOS 中各种漏洞，包括（Writeup/POC/Exploit）
+https://github.com/coffeehb/Some-PoC-oR-ExP/blob/master/check_icmp_dos.py CVE-2018-4407，macos/ios 缓冲区溢出可导致系统崩溃
+https://github.com/vulnersCom/getsploit py2,仿照 searchsploit 通过各种数据库的官方接口进行 payload 的查找
+https://github.com/SecWiki/CMS-Hunter CMS 漏洞测试用例集合
+https://github.com/Mr5m1th/0day 各种开源 CMS 各种版本的漏洞以及 EXP
+https://github.com/w1109790800/penetration CMS 新老版本 exp 与系统漏洞搜集表
+https://github.com/blacknbunny/libSSH-Authentication-Bypass CVE-2018-10933，libssh 服务端身份验证绕过
+https://github.com/leapsecurity/libssh-scanner CVE-2018-10933，libssh 服务端身份验证绕过
+https://github.com/anbai-inc/CVE-2018-4878 Adobe Flash Exploit 生成 payload
+https://github.com/RetireJS/grunt-retire 扫描 js 扩展库的常见漏洞
+https://github.com/coffeehb/SSTIF 服务器端模板注入漏洞的半自动化工具
+https://github.com/tijme/angularjs-csti-scanner 探测客户端 AngularJS 模板注入漏洞工具
+https://github.com/blackye/Jenkins Jenkins 漏洞探测、用户抓取爆破
+https://github.com/epinna/tplmap 服务器端模板注入漏洞检测与利用工具
+https://github.com/irsdl/IIS-ShortName-Scanner Java,IIS 短文件名暴力枚举漏洞利用工具
+https://github.com/lijiejie/IIS_shortname_Scanner py2,IIS 短文件名漏洞扫描
+https://github.com/rudSarkar/crlf-injector CRLF 注入漏洞批量扫描
+https://github.com/hahwul/a2sv SSL 漏洞扫描，例如心脏滴血漏洞等
+https://github.com/jagracey/Regex-DoS RegEx 拒绝服务扫描器
+https://github.com/Bo0oM/PHP_imap_open_exploit 利用 imap_open 绕过 php exec 函数禁用
+https://www.anquanke.com/post/id/106488 利用 mysql 服务端恶意配置读取客户端文件，（如何利用 MySQL LOCAL INFILE 读取客户端文件，Read MySQL Client's File，【技术分享】从 MySQL 出发的反击之路）
+https://www.waitalone.cn/awvs-poc.html CVE-2015-4027，AWVS10 命令执行漏洞
+http://an7isec.blogspot.com/2014/04/pown-noobs-acunetix-0day.html Pwn the n00bs - Acunetix 0day，awvs8 命令执行漏洞
+https://github.com/numpy/numpy/issues/12759 科学计算框架 numpy 命令执行 RCE 漏洞
+https://github.com/petercunha/Jenkins-PreAuth-RCE-PoC jenkins 远程命令执行
+https://github.com/WyAtu/CVE-2018-20250 WinRar 执行漏洞加使用介绍
+物联网路由工控漏洞收集
+https://github.com/yassineaboukir/CVE-2018-0296 测试思科 ASA 路径穿越漏洞，可获取系统详细信息
+https://github.com/seclab-ucr/tcp_exploit 利用 tcp 漏洞使无线路由器产生隐私泄露
+https://github.com/ezelf/CVE-2018-9995_dvr_credentials CVE-2018-9995 摄像头路由，Get DVR Credentials
+java 反序列化漏洞收集
+https://github.com/brianwrf/hackUtils java 反序列化利用
+https://github.com/GoSecure/break-fast-serial 借助 DNS 解析来检测 Java 反序列化漏洞工具
+https://github.com/s1kr10s/Apache-Struts-v3 Apache-Struts 漏洞利用工具
+https://github.com/iBearcat/S2-057 struts2 CVE-2018-11776 漏洞检测工具
+https://github.com/Ivan1ee/struts2-057-exp struts2-057 利用脚本
+https://github.com/theLSA/s2sniper struts2 漏洞的检测工具
+https://github.com/Lucifer1993/struts-scan 批量检测 struts 命令执行漏洞
+https://github.com/lijiejie/struts2_045_scan Struts2-045 漏洞批量扫描工具
+https://github.com/riusksk/StrutScan 基于 perl 的 strut2 的历史漏洞扫描
+https://github.com/Coalfire-Research/java-deserialization-exploits java 反序列化漏洞收集
+https://github.com/quentinhardy/jndiat weblogic 漏洞利用工具
+https://github.com/jas502n/CVE-2018-3191 Weblogic CVE-2018-3191 远程代码命令执行
+https://github.com/pyn3rd/CVE-2018-3245 weblogic cve-2018-2893 与 cve-2018-3245 远程代码命令执行
+https://github.com/NickstaDB/BaRMIe 用于 Java Remote Method Invocation 服务的工具/rmi 的枚举与远程命令执行
+https://github.com/joaomatosf/jexboss JBoss 和其他 java 序列化漏洞验证和开发工具
+https://github.com/frohoff/ysoserial java 反序列化利用工具
+版本管理平台漏洞收集
+https://github.com/shengqi158/svnhack .svn 文件夹泄漏利用工具
+https://www.waitalone.cn/seay-svn-poc-donw-20140505.html Seay-Svn 源代码泄露漏洞利用工具，2014-05-05 版
+https://github.com/BugScanTeam/GitHack .git 文件利用工具，lijiejie 改进版
+https://github.com/lijiejie/GitHack .git 文件利用工具
+MS 与 Office 漏洞收集
+https://github.com/Lz1y/CVE-2017-8759 .NET Framework 换行符漏洞，CVE-2017-8759 完美复现（另附加 hta+powershell 弹框闪烁解决方案）https://www.freebuf.com/vuls/147793.html
+https://github.com/WyAtu/CVE-2018-8581 Exchange 使用完成添加收信规则的操作进行横向渗透和提权漏洞
+https://github.com/dafthack/MailSniper PS,用于在 Microsoft Exchange 环境搜索电子邮件查找特定邮件（密码、网络架构信息等）
+https://github.com/sensepost/ruler GO,通过 MAPI / HTTP 或 RPC / HTTP 协议远程与 Exchange 服务器进行交互,通过客户端 Outlook 功能远程获取 shell
+https://github.com/3gstudent/Smbtouch-Scanner 扫描内网永恒之蓝 ETERNAL445SMB 系列漏洞
+https://github.com/smgorelik/Windows-RCE-exploits windows 命令执行 RCE 漏洞 POC 样本，分为 web 与文件两种形式
+https://github.com/3gstudent/CVE-2017-8464-EXP CVE-2017-8464，win 快捷方式远程执行漏洞
+https://github.com/Lz1y/CVE-2018-8420 Windows 的 msxml 解析器漏洞可以通过 ie 或 vbs 执行后门
+https://www.anquanke.com/post/id/163000 利用 Excel 4.0 宏躲避杀软检测的攻击技术分析
+https://github.com/BuffaloWill/oxml_xxe XXE 漏洞利用
+https://thief.one/2017/06/20/1/ 浅谈 XXE 漏洞攻击与防御
+https://github.com/thom-s/docx-embeddedhtml-injection word2016，滥用 Word 联机视频特征执行恶意代码 poc
+https://blog.cymulate.com/abusing-microsoft-office-online-video word2016，滥用 Word 联机视频特征执行恶意代码介绍
+https://github.com/0xdeadbeefJERKY/Office-DDE-Payloads 无需开启宏即可在 word 文档中利用 DDE 执行命令
+http://www.freebuf.com/articles/terminal/150285.html 无需开启宏即可在 word 文档中利用 DDE 执行命令利用
+https://github.com/Ridter/CVE-2017-11882 利用 word 文档 RTF 获取 shell，https://evi1cg.me/archives/CVE_2017_11882_exp.html
+https://github.com/Lz1y/CVE-2017-8759 利用 word 文档 hta 获取 shell，http://www.freebuf.com/vuls/147793.html
+https://fuping.site/2017/04/18/CVE-2017-0199 漏洞复现过程 WORD RTF 文档，配合 msf 利用
+https://github.com/tezukanice/Office8570 利用 ppsx 幻灯片远程命令执行，https://github.com/rxwx/CVE-2017-8570
+https://github.com/0x09AL/CVE-2018-8174-msf 目前支持的版本是 32 位 IE 浏览器和 32 位 office。网页访问上线，浏览器关闭，shell 依然存活，http://www.freebuf.com/vuls/173727.html
+http://www.4hou.com/technology/9405.html 在 Office 文档的属性中隐藏攻击载荷
+https://evi1cg.me/archives/Create_PPSX.html 构造 PPSX 钓鱼文件
+https://github.com/enigma0x3/Generate-Macro PowerShell 脚本，生成含有恶意宏的 Microsoft Office 文档
+https://github.com/mwrlabs/wePWNise 生成独立于体系结构的 VBA 代码，用于 Office 文档或模板，并自动绕过应用程序控制
+https://github.com/curi0usJack/luckystrike 基于 ps，用于创建恶意的 Office 宏文档
+https://github.com/sevagas/macro_pack MS Office 文档、VBS 格式、快捷方式 payload 捆绑
+https://github.com/khr0x40sh/MacroShop 一组通过 Office 宏传递有效载荷的脚本
