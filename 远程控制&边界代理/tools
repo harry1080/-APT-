@@ -1,0 +1,76 @@
+远程控制 C2 服务器
+https://github.com/malwaredllc/byob 僵尸网络生成框架
+https://github.com/proxycannon/proxycannon-ng 构建攻击僵尸网络
+https://github.com/deadPix3l/CryptSky/ 勒索软件 poc
+https://github.com/jgamblin/Mirai-Source-Code 蠕虫病毒 poc
+https://github.com/AhMyth/AhMyth-Android-RAT 基于 smali，Windows 下安卓远控，一对多带界面
+https://github.com/ssooking/cobaltstrike3.12_cracked java1.8，远控、钓鱼、内网
+https://github.com/Mr-Un1k0d3r/ThunderShell py2，CLI 与 web 端，内存马，RC4 加密 HTTP 传输
+https://github.com/tiagorlampert/CHAOS go，win 远控，可过大部分杀软
+https://github.com/Ne0nd0g/merlin go，c2 通讯，一对多
+https://github.com/0x09AL/Browser-C2 go，利用 chrome 以浏览器的形式连接 C2 服务器
+https://github.com/xdnice/PCShare c++，可以监视目标机器屏幕、注册表、文件系统等
+https://github.com/quasar/QuasarRAT c#，一对多，界面
+https://github.com/TheM4hd1/Vayne-RaT c#，一对多，界面
+https://github.com/nettitude/PoshC2 PowerShell、C#，远控工具，有 win 提权组件
+https://github.com/euphrat1ca/njRAT-v0.7d vb，常见蠕虫远控，有很多变种，一对多带界面
+https://github.com/zerosum0x0/koadic py3,利用 JScript/VBScript 进行控制，大宝剑
+https://github.com/Ridter/MyJSRat py2，利用 js 后门，配合 chm、hta 可实现很多后门方式。evi1cg.me/archives/chm_backdoor.html
+https://github.com/its-a-feature/Apfell py3，macOS 与 linux 下的利用 js 后门，web 界面管理
+https://github.com/peterpt/fuzzbunch py2，NSA 漏洞利用工具，配有自动化安装脚本与 gui 界面，远控 rat
+https://github.com/n1nj4sec/pupy py，Windows, Linux, OSX, Android 跨平台，一对多
+https://github.com/nathanlopez/Stitch py，Windows、Mac OSX、Linux 跨平台
+https://github.com/neoneggplant/EggShell py，macos/osx 远控,可生成 HID 代码，一对多
+https://github.com/Marten4n6/EvilOSX py，macos/osx 远控，一对多
+https://github.com/vesche/basicRAT py3，simple 远控，一对多
+https://github.com/Viralmaniar/Powershell-RAT py，截图通过 gmail 传输
+https://github.com/byt3bl33d3r/gcat py，使用 gmail 作为 C&C 服务器
+https://github.com/sweetsoftware/Ares py，c2 通讯，支持代理
+https://github.com/micle-fm/Parat py，利用 telegram，windows 下的远程控制工具
+https://github.com/ahhh/Reverse_DNS_Shell py，通过 dns 传输
+https://github.com/iagox86/dnscat2 服务端为 ruby（linux），客户端为 C（win/linux），利用 DNS 协议进行端对端传输
+https://github.com/deepzec/Grok-backdoor py，利用 ngrok 的后门
+https://github.com/trustedsec/trevorc2 py，搭建一个合法的网站（可浏览），用于隐藏命令执行的客户端/服务器通信
+
+端口转发与代理工具
+https://github.com/fatedier/frp 用于内网穿透的高性能的反向代理应用，支持 tcp, udp, http, https 协议
+https://github.com/inconshreveable/ngrok 端口转发，正反向代理，内网穿透
+http://ngrok.ciqiuwl.cn/ 在线小米球 ngrok
+https://github.com/knownsec/rtcp Socket 端口转发，用于远程维护
+https://github.com/davrodpin/mole 基于 ssh 的端口转发
+http://rootkiter.com/EarthWorm 一款用于开启 SOCKS v5 代理服务的工具，基于标准 C 开发，可提供多平台间的转接通讯，用于复杂网络环境下的数据转发。
+http://rootkiter.com/Termite/README.txt EarthWorm 升级版，可以实现多节点跳跃
+https://github.com/SECFORCE/Tunna 可以通过 HTTP 封装隧道通信任何 TCP，以及用于绕过防火墙环境中的网络限制
+https://github.com/fbkcs/thunderdns 将 tcp 流量通过 DNS 协议转发，不需要客户端和 socket5 支持
+https://github.com/sensepost/reGeorg reDuh 的升级版，主要是把内网服务器的端口通过 http/https 隧道转发到本机，形成一个回路。用于目标服务器在内网或做了端口策略的情况下连接目标服务器内部开放端口（提供了 php，asp，jsp 脚本的正反向代理）
+https://github.com/SpiderClub/haipproxy py3,Scrapy and Redis,高可用 ip 代理池
+https://github.com/chenjiandongx/async-proxy-pool py3 异步爬虫 ip 代理池
+https://github.com/audibleblink/doxycannon 使用一个 openvpn 代理池，为每一个生成 docker，当连接某一个 vpn 后，其它的进行 socks5 转发做流量分发
+https://github.com/decoder-it/psportfwd PowerShell 编写的端口转发工具, 无需 admin 权限
+https://github.com/ls0f/gortcp go，通过主控端、中转、被控端实现内网穿透
+
+Cross 超越边界 NPV
+https://github.com/bannedbook/fanqiang/wiki cross 汇总
+https://github.com/teddysun/across 梯子搭建
+https://github.com/ToyoDAdoubi/doubi 各种常用一键脚本
+https://github.com/Nyr/openvpn-install openvpn 一键
+https://github.com/quericy/one-key-ikev2-vpn CentOS/Debian/Ubuntu 一键安装 IPSEC/IKEV2 VPN 脚本
+https://github.com/teddysun/shadowsocks_install shadowsocks,shadowsocksr
+https://github.com/guyingbo/shadowproxy ss/socks5/http//https 等多种代理
+https://github.com/shadowsocks/shadowsocks-manager shadowsocks 多用户管理
+https://github.com/leitbogioro/SSR.Go shadowsocksrr 配置管理简化工具
+https://github.com/ssrpanel/SSRPanel ss\ssr\v2ray 用户分布式管理
+https://github.com/xuanhuan/ss-panel ss 用户分布式管理
+https://github.com/Ahref-Group/SS-Panel-smarty-Edition ss 用户分布式管理，兑换码功能、商城系统，服务器信息
+https://github.com/Ccapton/brook-web brook 程序服务端 Web 后台管理服务器（Linux|MacOS），基于 python、flask、flask-restful
+https://github.com/Ccapton/brook-ok Brook 一键安装脚本
+https://github.com/txthinking/brook go，支持 Linux/MacOS/Windows/Android/iOS 的代理与 vpn
+https://github.com/gwuhaolin/lightsocks 轻量级网络混淆代理，基于 SOCKS5 协议，类 SS
+https://github.com/Umbrellazc/BypassCampusNet 校园网防断网; UDP 53 免流上网
+https://doub.io/dbrj-5/ 通过虚拟网卡转为类 VPN 全局代理 SSTAP，还有 sockscap64，比 proxifier 使用简单
+https://github.com/ntkernel/lantern unlimited-landeng-for-win，无限流量蓝灯
+https://www.psiphon3.com 开源赛风超越边界代理
+https://hide.me 可试用
+https://windscribe.com 可试用
+http://www.vpngate.net 日本国立筑波大学超越边界代理
+https://rava.app 注册可免费用一天
